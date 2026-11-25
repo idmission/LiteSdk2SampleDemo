@@ -83,7 +83,7 @@ The main features supported in this SDK are:
                 name "GitLab"
                 credentials(HttpHeaderCredentials) {
                     name = "Private-Token"
-                    value = "WESesyuSD9fQeqNEyig6"
+                    value = "<GitLab Token>"
                 }
                 authentication {
                     header(HttpHeaderAuthentication)
@@ -115,7 +115,7 @@ The main features supported in this SDK are:
                 name = "GitLab"
                 credentials(HttpHeaderCredentials::class) {
                     name = "Private-Token"
-                    value = "WESesyuSD9fQeqNEyig6"
+                    value = "<GitLab Token>"
                 }
                 authentication {
                     create<HttpHeaderAuthentication>("header")
@@ -222,7 +222,7 @@ Token Generation Sample Request:
 Sample Response - Token Generation:
 ```
      {
-        "access_token": "eyJhbGciO....5gNZx03Myb8ZuyY2gu3u-8KgGmULBs9mkPcg",
+        "access_token": "<ACCESS_TOKEN>",
         "expires_in": 18000,
         "refresh_expires_in": 0,
         "token_type": "Bearer",
